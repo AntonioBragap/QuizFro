@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>QUIZFRO</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="team" id="teamBlue">
+      <button id="blueButton">OK Equipe Azul</button>
+    </div>
+    <div class="team" id="teamOrange">
+      <button id="orangeButton">OK Equipe Laranja</button>
+    </div>
+    <div id="questionContainer" style="display: none;">
+      <div class="question" id="questionText">Pergunta 1: Qual é a capital do Brasil?</div>
+      <div class="options">
+        <div class="option" onclick="checkAnswer('blue', 1)">Brasília</div>
+        <div class="option" onclick="checkAnswer('blue', 0)">São Paulo</div>
+        <div class="option" onclick="checkAnswer('orange', 0)">Rio de Janeiro</div>
+        <div class="option" onclick="checkAnswer('orange', 0)">Belo Horizonte</div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

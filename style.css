@@ -1,0 +1,32 @@
+body {
+    background-image: url('https://previews.dropbox.com/p/thumb/ACGqc_PUz991ahwGz3fb5qKLxoKIg_n_Umc84lohXRX2LFi0xvQLJ_1o8vOir-nryr202qm3iiKrUI4kVt7DqoYvzA0FaHENRMspib0Vhsw79uSOYXI8loMh3Bb06Y3RrZ3gV6mQVo-BMp28trVEJDdaHAMHBvTOs--RFPzqt38HPxE0OX7gWRr0tH00QmiAIHN_8_wPnmdE-BXT2JlNph-DAZxtiqfbp0jlKSHuo4c3ktyPEbDG3ekWFtey74P8ACWAe-so6vDXcp2IP8F0oIIdYCRTsZKlCQHbo302UPkzVhHU73k1ZhBv7RbjaJ2KjPW9-ml9G2xAdo34HEUDTYJM/p.png');
+    background-size: cover; /* Cobrir todo o espaço disponível */
+    background-repeat: no-repeat; /* Não repetir a imagem */
+    /* Centralizar a imagem */
+  }
+  .container {
+    text-align: center;
+    margin-top: 100px;
+  }
+  .team {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  .question {
+    background-color: rgba(255, 255, 255, 0.8); /* Cor de fundo da pergunta */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .options {
+    display: flex;
+    justify-content: space-between;
+  }
+  .option {
+    width: 45%;
+    background-color: #3498db; /* Cor de fundo das opções da equipe Azul */
+    color: #fff;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  
