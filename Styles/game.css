@@ -1,0 +1,76 @@
+body{
+  background: #18442F;
+  font-family: 'Times New Roman';
+  position: relative;
+  margin: 0;
+}
+
+#container{
+  /* background: #e7e7e7; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+  gap: 40px;
+  margin: 30px;
+}
+
+ #pergunta{
+  height: 200px;
+  text-align: center;
+  background: #e7e7e7;
+  grid-column: 1/-1;
+  border-radius: 1rem;
+  margin: 0;
+ }
+
+ 
+
+ .resposta-azul{
+  display: grid;
+  grid-template-columns: 1fr;
+  place-content: center;
+  margin: 0;
+ }
+
+ .resposta-laranja{
+  display: grid;
+  grid-template-columns: 1fr;
+  place-content: center;
+ }
+
+ .indica-azul{
+  width: 200px;
+  background-color: #42AEEE;
+  color: #e7e7e7;
+  font-size: 20px;
+  border-radius: 4px;
+  text-align: center;
+ }
+
+ .indica-laranja{
+  width: 200px;
+  background-color: #D8852A;
+  color: #e7e7e7;
+  place-self: center end;
+  font-size: 20px;
+  border-radius: 4px;
+  text-align: center;
+ }
+
+ .resposta-azul .alternativa{
+  background: #e7e7e7;
+  width: 550px;
+  height: 30px;
+  border-radius: 1rem;
+  padding: 10px;
+  place-self: center start;
+ }
+
+ .resposta-laranja .alternativa{
+  background: #e7e7e7;
+  width: 550px;
+  height: 30px;
+  border-radius: 1rem;
+  padding: 10px;
+  place-self: center end;
+ }
