@@ -1,44 +1,38 @@
-body #cabecalho .cbotao1 {
-  color: rgb(100, 58, 4);
-  background-color: bisque;
-  padding: 10px;
-  border: 4px solid rgb(100, 58, 4);
-  border-radius: 20%;
+body{
+  background: #18442F;
+  font-family: 'Arial';
   position: relative;
-  top: 20px;
-  left: 10px;
-  text-decoration: none;
-  font-family: Arial;
-}
-body #cabecalho .cbotao2 {
-  color: rgb(100, 58, 4);
-  background-color: bisque;
-  padding: 10px;
-  border: 4px solid rgb(100, 58, 4);
-  border-radius: 20%;
-  position: relative;
-  top: 20px;
-  left: 10px;
-  text-decoration: none;
-  font-family: Arial;
 }
 
-body #cabecalho .cbotao3 {
-  color: rgb(100, 58, 4);
-  background-color: bisque;
-  padding: 10px;
-  border: 4px solid rgb(100, 58, 4);
-  border-radius: 20%;
-  position: relative;
-  top: 20px;
-  left: 10px;
-  text-decoration: none;
-  font-family: Arial;
+#imagem{
+  width: 1500px;
+  height: 700px;
+  display: grid;
+  grid-template-columns: 1200px;
+  place-content: center;
+}
+#imagem-start{
+  height: 625px;
+  max-width: 100%;
+  place-self: center;
+  border-radius: 1rem;
 }
 
-#cabecalho {
-  display: inline;
-  background-color: aqua;
-  border: 8px solid aqua;
-  justify-content: center;
+.start-button{
+  height: 30px;
+  width: 90px;
+  position: absolute;
+  left: 685px;
+  bottom: 150px;
+  background: #18442F;
+  padding: 20px;
+  border-radius: 1rem;
 }
+.start-button a{
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  color: #E8E8E8;
+
+}
+
