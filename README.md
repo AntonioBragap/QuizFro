@@ -1,10 +1,10 @@
 # QuizAfro
 
-Bem-vindo ao QuizAfro, um game quiz web desenvolvido pela nossa equipe de acadêmicos de Engenharia de Software durante o segundo período no IFAM - Campus Manaus Zona Leste. Este projeto foi criado como parte da disciplina de Sociedade e Cultura, explorando o tema afro-brasileiro.
+Bem-vindo ao QuizAfro, um game quiz web desenvolvido pela nossa equipe de acadêmicos de Engenharia de Software durante o segundo período no IFAM - Campus Manaus Zona Leste. Este projeto foi criado como parte da disciplina de Sociedade e Cultura, explorando o tema Afro.
 
 ## Sobre o Projeto
 
-O QuizAfro é uma iniciativa que visa promover a compreensão e a valorização da cultura afro-brasileira por meio de um jogo educativo. Desenvolvido como parte do currículo acadêmico, o projeto envolveu pesquisa, design e implementação para criar uma experiência interativa e educativa.
+O QuizAfro é uma iniciativa que visa promover a compreensão e a valorização da cultura afro por meio de um jogo educativo. Desenvolvido como parte do currículo acadêmico, o projeto envolveu pesquisa, design e implementação para criar uma experiência interativa e educativa.
 
 ## Funcionalidades
 
